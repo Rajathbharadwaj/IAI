@@ -9,7 +9,7 @@ def main():
     problem_dfs = MissionariesAndCannibals()
 
     result_bfs = breadth_first_graph_search(problem_bfs)
-    hill_climbing(NQueensProblem(8))
+
     if result_bfs:
         print_result(result_bfs)
 

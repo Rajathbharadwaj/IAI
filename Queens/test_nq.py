@@ -3,7 +3,7 @@ import math
 import time
 
 from utils import argmax_random_tie, is_in
-from game_state import State
+
 
 
 class Problem(object):

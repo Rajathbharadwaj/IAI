@@ -1,6 +1,6 @@
 from tqdm import tqdm
 
-from Queens.search import *
+from search import *
 import time
 from test_nq import hill_climbing, NQueens
 
@@ -43,7 +43,7 @@ if __name__ == '__main__':
     number_of_success = goal.count(True)
     number_of_failure = 1000-number_of_success
     print(f'Average Moves {moves_taken_avg}')
-    print(f'Average Time {time_taken_avg}')%
+    print(f'Average Time {time_taken_avg}')
     print(f'Success {number_of_success}')
     print(f'Failure {number_of_failure}')
     print(f'Time taken to complete when success {number_of_success*time_taken_avg}')
