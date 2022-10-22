@@ -20,15 +20,13 @@ def breadth_first_graph_search(problem):
     while frontier:
         node = frontier.popleft()
         explored.add(node.state)
-        print(f'explored {explored}')
-
         for child in node.expand(problem):
-            print(f'child expanded {child}')
+
             if child.state not in explored and child not in frontier:
                 if problem.is_goal(child.state):
                     return child
                 frontier.append(child)
-                print(f'End frontier {frontier}')
+
     return None
 
 

@@ -107,8 +107,6 @@ class MissionariesAndCannibals(Problem):
         if node.depth % 2 == 0:
             state = node.state - action
         else:
-            print(node.state)
-            print(action)
             state = node.state + action
         return Node(state, node, action)
 
@@ -117,6 +115,6 @@ class MissionariesAndCannibals(Problem):
         """
         :param node:
         :return: returns the heuristic as follows
-        h(n) = No. of people on the left side / boat capacity
+        h(n) = No. of people in the current side / boat capacity
         """
         return (node.state.num_missionaries + node.state.num_cannibals) / node.state.boat_capacity

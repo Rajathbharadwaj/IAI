@@ -5,20 +5,37 @@ from nqueens import NQueensProblem
 
 
 def main():
+    # instantiation of the problem
     problem_bfs = MissionariesAndCannibals()
     problem_dfs = MissionariesAndCannibals()
+    problem_gbfs = MissionariesAndCannibals()
+    problem_astar = MissionariesAndCannibals()
 
+    pprint('Starting with BFS.....')
     result_bfs = breadth_first_graph_search(problem_bfs)
-
     if result_bfs:
         print_result(result_bfs)
 
     pprint('Starting with DFS.....')
     result_dfs = depth_first_graph_search(problem_dfs)
+
     if result_dfs:
         print_result(result_dfs)
 
+    pprint('Starting with Greedy BFS',)
+    result_gbfs = best_first_graph_search(problem_gbfs, lambda node: node.path_cost, display=True)
 
+    if result_gbfs:
+        print_result(result_gbfs)
+
+    pprint('Starting with A*')
+    result_astar = astar_search(problem_gbfs, display=True)
+
+    if result_gbfs:
+        print_result(result_astar)
+
+
+# display the results gracefully
 def print_result(result):
     lst = [(1, 0, 1),
             (2, 0, 1),
@@ -31,6 +48,7 @@ def print_result(result):
         else:
             sign = 'R'
 
+        # structural integrity
         if node.action == lst[0]:
             val = '1M0C1B'
         elif node.action == lst[1]:
