@@ -8,6 +8,11 @@ Usage
 3. Run `python run.py` for Missionaries and Cannibals problem
 4. Run `python Queens/run.py` for NQueens problem.
 
+Video Recorded
+1. https://youtu.be/pJZLQNMhkWg
+2. https://www.youtube.com/watch?v=IDTHGkwh7Gc&t=0s
+
+
 Citations
 
 1. Heavily referenced from <br>`https://github.com/aimacode/aima-python/blob/master/search.py`
