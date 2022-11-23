@@ -13,7 +13,7 @@ Video Recorded
 2. https://www.youtube.com/watch?v=IDTHGkwh7Gc&t=0s
 
 
-#Assignment 4 <br><br>
+# Assignment 4 <br><br>
 Video Recorded (Assignment 4)
 1. [MiniMax, Alpha-Beta and WalkSat Algorithm](https://www.youtube.com/watch?v=Agafl9B2THE)
 
