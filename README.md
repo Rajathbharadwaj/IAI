@@ -12,8 +12,12 @@ Video Recorded
 1. https://youtu.be/pJZLQNMhkWg
 2. https://www.youtube.com/watch?v=IDTHGkwh7Gc&t=0s
 
+Video Recorded (Assignment 4)
+https://www.youtube.com/watch?v=vZm27MYaE_0
+
 
 Citations
 
 1. Heavily referenced from <br>`https://github.com/aimacode/aima-python/blob/master/search.py`
 2. `https://github.com/M-S-Saurabh/8-Queens-Puzzle`
+3. `https://github.com/aimacode/aima-python/blob/master/game.py | logic.py` (Assignment 4)
