@@ -20,6 +20,10 @@ Video Recorded (Assignment 4)
 Files 
 1. [Minimax, Alpha-Beta and WalkSat implemnetation](https://github.com/Rajathbharadwaj/IAI/blob/main/minimax%2C_alpha_beta_and_walksat%20(2).ipynb)
 
+Four Ply Game Tree
+[embed]https://github.com/Rajathbharadwaj/IAI/blob/main/Ass4%20Q1.pdf[/embed]
+
+
 Citations
 
 1. Heavily referenced from <br>`https://github.com/aimacode/aima-python/blob/master/search.py`
