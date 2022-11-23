@@ -1,6 +1,6 @@
 # IAI
 
-This is the project repo implemnetation of Missionaries and Cannibals & NQueens
+This is the project repo implementation of coding of all Assignments of IAI
 
 Usage
 1. Clone the repo <br> `git clone https://github.com/Rajathbharadwaj/IAI.git`
