@@ -12,9 +12,14 @@ Video Recorded
 1. https://youtu.be/pJZLQNMhkWg
 2. https://www.youtube.com/watch?v=IDTHGkwh7Gc&t=0s
 
+
+Assignment 4 
 Video Recorded (Assignment 4)
 1. https://www.youtube.com/watch?v=vZm27MYaE_0
 
+Files 
+1. https://github.com/Rajathbharadwaj/IAI/blob/main/minimax%2C_alpha_beta_and_walksat.ipynb
+2. https://github.com/Rajathbharadwaj/IAI/blob/main/minimax%2C_alpha_beta_and_walksat%20(1).ipynb (Updated after recording | Changes in the four-ply tree)
 
 Citations
 
