@@ -21,7 +21,7 @@ Files
 1. [Minimax, Alpha-Beta and WalkSat implemnetation](https://github.com/Rajathbharadwaj/IAI/blob/main/minimax%2C_alpha_beta_and_walksat%20(2).ipynb)
 
 Four Ply Game Tree
-1. (https://github.com/Rajathbharadwaj/IAI/blob/main/78fdd090_1.png)
+1. ![alt text](https://github.com/Rajathbharadwaj/IAI/blob/main/78fdd090_1.png?raw=true)
 
 
 Citations
