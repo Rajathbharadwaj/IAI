@@ -15,11 +15,10 @@ Video Recorded
 
 Assignment 4 
 Video Recorded (Assignment 4)
-1. https://www.youtube.com/watch?v=vZm27MYaE_0
+1. [MiniMax, Alpha-Beta and WalkSat Algorithm](https://www.youtube.com/watch?v=Agafl9B2THE)
 
 Files 
-1. https://github.com/Rajathbharadwaj/IAI/blob/main/minimax%2C_alpha_beta_and_walksat.ipynb
-2. https://github.com/Rajathbharadwaj/IAI/blob/main/minimax%2C_alpha_beta_and_walksat%20(1).ipynb (Updated after recording | Changes in the four-ply tree)
+1. [Minimax, Alpha-Beta and WalkSat implemnetation](https://github.com/Rajathbharadwaj/IAI/blob/main/minimax%2C_alpha_beta_and_walksat%20(2).ipynb)
 
 Citations
 
