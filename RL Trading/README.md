@@ -14,7 +14,7 @@ Video Recorded
 1. 
 
 Report
-
+1. [RL Report](https://github.com/Rajathbharadwaj/IAI/blob/main/RL%20Trading/RL.pdf)
 
 Citations
 
