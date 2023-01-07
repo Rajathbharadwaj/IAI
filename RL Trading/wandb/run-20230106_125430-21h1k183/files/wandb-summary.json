@@ -1,0 +1,1 @@
+{"global_step": 115000, "_timestamp": 1673034912.662688, "time/fps": 2907.0, "train/entropy_loss": -0.030281368643045425, "train/explained_variance": 0.4329407811164856, "train/learning_rate": 0.000699999975040555, "train/policy_loss": -0.031800560653209686, "train/value_loss": 19.218172073364258, "_runtime": 42.460663080215454, "_step": 229, "_wandb": {"runtime": 43}}

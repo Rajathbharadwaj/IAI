@@ -1,0 +1,262 @@
+wandb_version: 1
+
+_current_progress_remaining:
+  desc: null
+  value: 1
+_custom_logger:
+  desc: null
+  value: 'False'
+_episode_num:
+  desc: null
+  value: 0
+_episode_storage:
+  desc: null
+  value: None
+_last_episode_starts:
+  desc: null
+  value: '[ True]'
+_last_obs:
+  desc: null
+  value: "[[[ 1.03201192e+01  7.78750090e+07  0.00000000e+00  0.00000000e+00\n   \
+    \ 1.00000000e+00  1.00000000e+00]\n  [ 1.04525269e+01  9.66029360e+07  0.00000000e+00\
+    \  0.00000000e+00\n    1.00000000e+00  0.00000000e+00]\n  [ 1.02386398e+01  1.00099436e+08\
+    \  0.00000000e+00  0.00000000e+00\n    1.00000000e+00  1.00000000e+00]\n  [ 1.02182699e+01\
+    \  7.69359300e+07  1.04072039e+01  0.00000000e+00\n    1.00000000e+00  0.00000000e+00]\n\
+    \  [ 9.79303950e+00  8.62885840e+07  1.02905840e+01  0.00000000e+00\n    1.00000000e+00\
+    \  0.00000000e+00]\n  [ 9.28123321e+00  1.79415702e+08  1.01332233e+01  0.00000000e+00\n\
+    \    1.00000000e+00  0.00000000e+00]\n  [ 9.31942837e+00  1.27653926e+08  9.91067753e+00\
+    \  0.00000000e+00\n    1.00000000e+00  0.00000000e+00]\n  [ 9.25576849e+00  1.89051436e+08\
+    \  9.76604767e+00  0.00000000e+00\n    1.00000000e+00  0.00000000e+00]\n  [ 9.49003032e+00\
+    \  1.72918416e+08  9.61530724e+00  0.00000000e+00\n    1.00000000e+00  0.00000000e+00]\n\
+    \  [ 9.40091083e+00  9.22914480e+07  9.52720547e+00  0.00000000e+00\n    1.00000000e+00\
+    \  0.00000000e+00]\n  [ 9.39072647e+00  1.00259719e+08  9.49970608e+00  0.00000000e+00\n\
+    \    1.00000000e+00  0.00000000e+00]\n  [ 9.01642038e+00  1.38279150e+08  9.44623413e+00\
+    \  0.00000000e+00\n   -1.00000000e+00  0.00000000e+00]]]"
+_last_original_obs:
+  desc: null
+  value: None
+_logger:
+  desc: null
+  value: <stable_baselines3.common.logger.Logger object at 0x299306190>
+_n_calls:
+  desc: null
+  value: 0
+_n_updates:
+  desc: null
+  value: 0
+_num_timesteps_at_start:
+  desc: null
+  value: 0
+_total_timesteps:
+  desc: null
+  value: 1000000
+_vec_normalize_env:
+  desc: null
+  value: None
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.7
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.8.15
+    session_history: code/_session_history.ipynb
+    start_time: 1673036290.644454
+    t:
+      1:
+      - 1
+      - 2
+      - 3
+      - 55
+      2:
+      - 1
+      - 2
+      - 3
+      - 55
+      3:
+      - 2
+      - 3
+      - 16
+      - 22
+      - 23
+      - 34
+      4: 3.8.15
+      5: 0.13.7
+      8:
+      - 1
+      - 4
+      - 5
+action_noise:
+  desc: null
+  value: None
+action_space:
+  desc: null
+  value: Discrete(2)
+actor:
+  desc: null
+  value: None
+algo:
+  desc: null
+  value: DQN
+batch_norm_stats:
+  desc: null
+  value: '[]'
+batch_norm_stats_target:
+  desc: null
+  value: '[]'
+batch_size:
+  desc: null
+  value: 32
+buffer_size:
+  desc: null
+  value: 1000000
+device:
+  desc: null
+  value: cpu
+env:
+  desc: null
+  value: <stable_baselines3.common.vec_env.dummy_vec_env.DummyVecEnv object at 0x2994c3be0>
+env_id:
+  desc: null
+  value: Stocks-v0
+ep_info_buffer:
+  desc: null
+  value: deque([], maxlen=100)
+ep_success_buffer:
+  desc: null
+  value: deque([], maxlen=100)
+eval_env:
+  desc: null
+  value: None
+exploration_final_eps:
+  desc: null
+  value: 0.05
+exploration_fraction:
+  desc: null
+  value: 0.1
+exploration_initial_eps:
+  desc: null
+  value: 1.0
+exploration_rate:
+  desc: null
+  value: 0.0
+exploration_schedule:
+  desc: null
+  value: <function get_linear_fn.<locals>.func at 0x2994fb700>
+gamma:
+  desc: null
+  value: 0.99
+gradient_steps:
+  desc: null
+  value: 1
+learning_rate:
+  desc: null
+  value: 0.0001
+learning_starts:
+  desc: null
+  value: 50000
+lr_schedule:
+  desc: null
+  value: <function constant_fn.<locals>.func at 0x2994fb280>
+max_grad_norm:
+  desc: null
+  value: 10
+n_envs:
+  desc: null
+  value: 1
+num_timesteps:
+  desc: null
+  value: 0
+observation_space:
+  desc: null
+  value: "Box([[-inf -inf -inf -inf -inf -inf]\n [-inf -inf -inf -inf -inf -inf]\n\
+    \ [-inf -inf -inf -inf -inf -inf]\n [-inf -inf -inf -inf -inf -inf]\n [-inf -inf\
+    \ -inf -inf -inf -inf]\n [-inf -inf -inf -inf -inf -inf]\n [-inf -inf -inf -inf\
+    \ -inf -inf]\n [-inf -inf -inf -inf -inf -inf]\n [-inf -inf -inf -inf -inf -inf]\n\
+    \ [-inf -inf -inf -inf -inf -inf]\n [-inf -inf -inf -inf -inf -inf]\n [-inf -inf\
+    \ -inf -inf -inf -inf]], [[inf inf inf inf inf inf]\n [inf inf inf inf inf inf]\n\
+    \ [inf inf inf inf inf inf]\n [inf inf inf inf inf inf]\n [inf inf inf inf inf\
+    \ inf]\n [inf inf inf inf inf inf]\n [inf inf inf inf inf inf]\n [inf inf inf\
+    \ inf inf inf]\n [inf inf inf inf inf inf]\n [inf inf inf inf inf inf]\n [inf\
+    \ inf inf inf inf inf]\n [inf inf inf inf inf inf]], (12, 6), float64)"
+optimize_memory_usage:
+  desc: null
+  value: 'False'
+policy:
+  desc: null
+  value: "DQNPolicy(\n  (q_net): QNetwork(\n    (features_extractor): FlattenExtractor(\n\
+    \      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (q_net): Sequential(\n\
+    \      (0): Linear(in_features=72, out_features=64, bias=True)\n      (1): ReLU()\n\
+    \      (2): Linear(in_features=64, out_features=64, bias=True)\n      (3): ReLU()\n\
+    \      (4): Linear(in_features=64, out_features=2, bias=True)\n    )\n  )\n  (q_net_target):\
+    \ QNetwork(\n    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1,\
+    \ end_dim=-1)\n    )\n    (q_net): Sequential(\n      (0): Linear(in_features=72,\
+    \ out_features=64, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=64,\
+    \ out_features=64, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=64,\
+    \ out_features=2, bias=True)\n    )\n  )\n)"
+policy_class:
+  desc: null
+  value: <class 'stable_baselines3.dqn.policies.DQNPolicy'>
+policy_kwargs:
+  desc: null
+  value: '{}'
+policy_type:
+  desc: null
+  value: MlpPolicy
+q_net:
+  desc: null
+  value: "QNetwork(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1,\
+    \ end_dim=-1)\n  )\n  (q_net): Sequential(\n    (0): Linear(in_features=72, out_features=64,\
+    \ bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=64, out_features=64,\
+    \ bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=64, out_features=2,\
+    \ bias=True)\n  )\n)"
+q_net_target:
+  desc: null
+  value: "QNetwork(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1,\
+    \ end_dim=-1)\n  )\n  (q_net): Sequential(\n    (0): Linear(in_features=72, out_features=64,\
+    \ bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=64, out_features=64,\
+    \ bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=64, out_features=2,\
+    \ bias=True)\n  )\n)"
+replay_buffer:
+  desc: null
+  value: <stable_baselines3.common.buffers.ReplayBuffer object at 0x2a5bd2df0>
+replay_buffer_class:
+  desc: null
+  value: <class 'stable_baselines3.common.buffers.ReplayBuffer'>
+replay_buffer_kwargs:
+  desc: null
+  value: '{}'
+sde_sample_freq:
+  desc: null
+  value: -1
+seed:
+  desc: null
+  value: None
+start_time:
+  desc: null
+  value: 1673036294635564000
+target_update_interval:
+  desc: null
+  value: 10000
+tau:
+  desc: null
+  value: 1.0
+tensorboard_log:
+  desc: null
+  value: runs/3bj57dmc
+total_timesteps:
+  desc: null
+  value: 1000000
+train_freq:
+  desc: null
+  value: 'TrainFreq(frequency=4, unit=<TrainFrequencyUnit.STEP: ''step''>)'
+use_sde:
+  desc: null
+  value: 'False'
+use_sde_at_warmup:
+  desc: null
+  value: 'False'
+verbose:
+  desc: null
+  value: 1

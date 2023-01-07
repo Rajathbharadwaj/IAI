@@ -1,0 +1,200 @@
+wandb_version: 1
+
+_current_progress_remaining:
+  desc: null
+  value: 1
+_custom_logger:
+  desc: null
+  value: 'False'
+_episode_num:
+  desc: null
+  value: 0
+_last_episode_starts:
+  desc: null
+  value: '[ True]'
+_last_obs:
+  desc: null
+  value: "[[[ 4.07462751e+02  5.31176500e+06  4.12687012e+02  4.35500728e+01\n   \
+    \ 1.00000000e+00  0.00000000e+00]\n  [ 4.12034576e+02  6.19554800e+06  4.12544147e+02\
+    \  4.54334169e+01\n    1.00000000e+00  0.00000000e+00]\n  [ 4.17725522e+02  1.58116550e+07\
+    \  4.15249133e+02  5.24650942e+01\n    1.00000000e+00  1.00000000e+00]\n  [ 4.17201701e+02\
+    \  5.87590200e+06  4.16882605e+02  4.74767627e+01\n    1.00000000e+00  0.00000000e+00]\n\
+    \  [ 4.02176640e+02  7.26655600e+06  4.15363434e+02  4.02774041e+01\n   -1.00000000e+00\
+    \  0.00000000e+00]\n  [ 4.00033543e+02  7.02460900e+06  4.13777582e+02  4.10582250e+01\n\
+    \   -1.00000000e+00  0.00000000e+00]\n  [ 3.97533329e+02  1.34190220e+07  4.10424921e+02\
+    \  3.82038592e+01\n   -1.00000000e+00  0.00000000e+00]\n  [ 3.94652159e+02  5.36476900e+06\
+    \  4.04600623e+02  3.75337633e+01\n   -1.00000000e+00  0.00000000e+00]\n  [ 3.93413934e+02\
+    \  7.31637400e+06  4.01043170e+02  3.99135617e+01\n   -1.00000000e+00  1.00000000e+00]\n\
+    \  [ 3.99319180e+02  7.98026400e+06  4.02414697e+02  4.71081063e+01\n    1.00000000e+00\
+    \  0.00000000e+00]\n  [ 4.08891470e+02  3.99815400e+06  4.03781482e+02  4.78569320e+01\n\
+    \    1.00000000e+00  0.00000000e+00]\n  [ 4.10439229e+02  7.39111000e+06  4.08605701e+02\
+    \  5.45799087e+01\n    1.00000000e+00  0.00000000e+00]]]"
+_last_original_obs:
+  desc: null
+  value: None
+_logger:
+  desc: null
+  value: <stable_baselines3.common.logger.Logger object at 0x29874a910>
+_n_updates:
+  desc: null
+  value: 0
+_num_timesteps_at_start:
+  desc: null
+  value: 0
+_total_timesteps:
+  desc: null
+  value: 1000000
+_vec_normalize_env:
+  desc: null
+  value: None
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.7
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.8.15
+    session_history: code/_session_history.ipynb
+    start_time: 1673034870.202025
+    t:
+      1:
+      - 1
+      - 2
+      - 3
+      - 55
+      2:
+      - 1
+      - 2
+      - 3
+      - 55
+      3:
+      - 2
+      - 16
+      - 22
+      - 23
+      - 34
+      - 35
+      4: 3.8.15
+      5: 0.13.7
+      8:
+      - 1
+      - 4
+      - 5
+action_noise:
+  desc: null
+  value: None
+action_space:
+  desc: null
+  value: Discrete(2)
+algo:
+  desc: null
+  value: A2C
+device:
+  desc: null
+  value: cpu
+ent_coef:
+  desc: null
+  value: 0.0
+env:
+  desc: null
+  value: <stable_baselines3.common.vec_env.dummy_vec_env.DummyVecEnv object at 0x1699d3d00>
+env_id:
+  desc: null
+  value: Stocks-v0
+ep_info_buffer:
+  desc: null
+  value: deque([], maxlen=100)
+ep_success_buffer:
+  desc: null
+  value: deque([], maxlen=100)
+eval_env:
+  desc: null
+  value: None
+gae_lambda:
+  desc: null
+  value: 1.0
+gamma:
+  desc: null
+  value: 0.99
+learning_rate:
+  desc: null
+  value: 0.0007
+lr_schedule:
+  desc: null
+  value: <function constant_fn.<locals>.func at 0x298748700>
+max_grad_norm:
+  desc: null
+  value: 0.5
+n_envs:
+  desc: null
+  value: 1
+n_steps:
+  desc: null
+  value: 5
+normalize_advantage:
+  desc: null
+  value: 'False'
+num_timesteps:
+  desc: null
+  value: 0
+observation_space:
+  desc: null
+  value: "Box([[-inf -inf -inf -inf -inf -inf]\n [-inf -inf -inf -inf -inf -inf]\n\
+    \ [-inf -inf -inf -inf -inf -inf]\n [-inf -inf -inf -inf -inf -inf]\n [-inf -inf\
+    \ -inf -inf -inf -inf]\n [-inf -inf -inf -inf -inf -inf]\n [-inf -inf -inf -inf\
+    \ -inf -inf]\n [-inf -inf -inf -inf -inf -inf]\n [-inf -inf -inf -inf -inf -inf]\n\
+    \ [-inf -inf -inf -inf -inf -inf]\n [-inf -inf -inf -inf -inf -inf]\n [-inf -inf\
+    \ -inf -inf -inf -inf]], [[inf inf inf inf inf inf]\n [inf inf inf inf inf inf]\n\
+    \ [inf inf inf inf inf inf]\n [inf inf inf inf inf inf]\n [inf inf inf inf inf\
+    \ inf]\n [inf inf inf inf inf inf]\n [inf inf inf inf inf inf]\n [inf inf inf\
+    \ inf inf inf]\n [inf inf inf inf inf inf]\n [inf inf inf inf inf inf]\n [inf\
+    \ inf inf inf inf inf]\n [inf inf inf inf inf inf]], (12, 6), float64)"
+policy:
+  desc: null
+  value: "ActorCriticPolicy(\n  (features_extractor): FlattenExtractor(\n    (flatten):\
+    \ Flatten(start_dim=1, end_dim=-1)\n  )\n  (mlp_extractor): MlpExtractor(\n  \
+    \  (shared_net): Sequential()\n    (policy_net): Sequential(\n      (0): Linear(in_features=72,\
+    \ out_features=64, bias=True)\n      (1): Tanh()\n      (2): Linear(in_features=64,\
+    \ out_features=64, bias=True)\n      (3): Tanh()\n    )\n    (value_net): Sequential(\n\
+    \      (0): Linear(in_features=72, out_features=64, bias=True)\n      (1): Tanh()\n\
+    \      (2): Linear(in_features=64, out_features=64, bias=True)\n      (3): Tanh()\n\
+    \    )\n  )\n  (action_net): Linear(in_features=64, out_features=2, bias=True)\n\
+    \  (value_net): Linear(in_features=64, out_features=1, bias=True)\n)"
+policy_class:
+  desc: null
+  value: <class 'stable_baselines3.common.policies.ActorCriticPolicy'>
+policy_kwargs:
+  desc: null
+  value: '{''optimizer_class'': <class ''torch.optim.rmsprop.RMSprop''>, ''optimizer_kwargs'':
+    {''alpha'': 0.99, ''eps'': 1e-05, ''weight_decay'': 0}}'
+policy_type:
+  desc: null
+  value: MlpPolicy
+rollout_buffer:
+  desc: null
+  value: <stable_baselines3.common.buffers.RolloutBuffer object at 0x2986e0d00>
+sde_sample_freq:
+  desc: null
+  value: -1
+seed:
+  desc: null
+  value: None
+start_time:
+  desc: null
+  value: 1673034873108508000
+tensorboard_log:
+  desc: null
+  value: runs/21h1k183
+total_timesteps:
+  desc: null
+  value: 1000000
+use_sde:
+  desc: null
+  value: 'False'
+verbose:
+  desc: null
+  value: 1
+vf_coef:
+  desc: null
+  value: 0.5

@@ -1,0 +1,33 @@
+{
+    "os": "macOS-13.1-arm64-arm-64bit",
+    "python": "3.8.15",
+    "heartbeatAt": "2023-01-04T21:28:15.588435",
+    "startedAt": "2023-01-04T21:28:14.324372",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "Untitled.ipynb",
+    "root": "/Users/rajathdb/D/RL Trading",
+    "git": {
+        "remote": "https://github.com/Rajathbharadwaj/RL-Trading.git",
+        "commit": "6aad5c759ff15bfd841cf959f11336e52481b80e"
+    },
+    "email": "rajathrajath940@gmail.com",
+    "host": "Rajaths-MacBook-Pro.local",
+    "username": "rajathdb",
+    "executable": "/Users/rajathdb/miniconda3/envs/rl/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "disk": {
+        "total": 460.4317207336426,
+        "used": 8.257083892822266
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

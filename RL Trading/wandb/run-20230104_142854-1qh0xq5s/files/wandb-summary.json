@@ -1,0 +1,1 @@
+{"global_step": 999888, "_timestamp": 1672868003.424918, "rollout/exploration_rate": 0.05000000074505806, "time/fps": 3823.0, "_runtime": 265.20831084251404, "_step": 6755, "train/learning_rate": 9.999999747378752e-05, "train/loss": 3.10906982421875, "_wandb": {"runtime": 263}}

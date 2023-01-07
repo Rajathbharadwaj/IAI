@@ -1,0 +1,42 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.7
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.8.15
+    start_time: 1672867694.333829
+    t:
+      1:
+      - 1
+      - 2
+      - 3
+      - 55
+      2:
+      - 1
+      - 2
+      - 3
+      - 55
+      3:
+      - 2
+      - 16
+      - 23
+      - 34
+      4: 3.8.15
+      5: 0.13.7
+      8:
+      - 1
+      - 4
+      - 5
+env_id:
+  desc: null
+  value: Stocks-v0
+policy_type:
+  desc: null
+  value: MlpPolicy
+total_timesteps:
+  desc: null
+  value: 1000000
