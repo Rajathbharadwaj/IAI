@@ -18,6 +18,6 @@ Report
 
 Citations
 
-1. Heavily referenced from <br>`https://github.com/aimacode/aima-python/blob/master/search.py`
-2. `https://github.com/M-S-Saurabh/8-Queens-Puzzle`
-3. `https://github.com/aimacode/aima-python/blob/master/game.py | logic.py` (Assignment 4)
+1. Heavily referenced from <br>`gym`
+2. [Stable Baselines 3](https://stable-baselines3.readthedocs.io/en/master/modules/a2c.html)`
+
