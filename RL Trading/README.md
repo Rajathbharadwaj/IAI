@@ -11,7 +11,7 @@ Usage
 3. RL Trading-Notebook is the file to be opened
 
 Video Recorded
-1. 
+1. [Click here for the video](https://drive.google.com/file/d/1OfQdnM2TflTh5KDXEnB_yasPSO7dHMtd/view?usp=sharing)
 
 Report
 1. [RL Report](https://github.com/Rajathbharadwaj/IAI/blob/main/RL%20Trading/RL.pdf)
