@@ -7,13 +7,15 @@ import matplotlib.pyplot as plt
 
 
 class Actions(Enum):
-    Sell = 0
+    Sell = -1
     Buy = 1
+    Hold = 0
 
 
 class Positions(Enum):
-    Short = 0
+    Short = -1
     Long = 1
+    Hold = 0
 
     def opposite(self):
         return Positions.Short if self == Positions.Long else Positions.Long
